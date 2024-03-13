@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    color: rgb(247, 244, 240);
+}
+
+#banner{
+    width: 600px;
+}
+#abecalho{
+    background-color: brown;
+    /*espaçamento 1 valor =todos lados*/
+    /*espaça,emto 2 valores = eixo y (cima embaixo) eixo x (esquerda e direita)*/
+    /*espaçamento 4 valor = cima, direita, ebaixo, esquerda*/
+    padding: 30px;
+    margin: 0px 0px 10px 0px;
+}
+#links{
+    background-color: blueviolet;
+}
+#artigo {
+    width: 80%;
+    background-color: rgb(19, 146, 104);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+}
