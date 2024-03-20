@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>CADASTRO</title>
+
+    <!--bibliotecas-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!--personal links-->
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/index.css">
@@ -16,8 +22,8 @@
              <div id="banner"></div>
             </div>
             <div id="formulario">
-                <h3>CADASTRO</h3>
-                <form action="#" method="post">
+                <h3 class="animate__animated animate__backInRight">CADASTRO</h3>
+                <form action="../MATERIAL DE AULA/pages/login.html" method="post">
                     <!--nome-->
                     <label for="nomeDeUsuario">Digite seu nome</label>
                     <input required type="text" id="nomeDeUsuario">
@@ -31,8 +37,12 @@
                     <label for="dataDeNascimento"> Digite sua data de nascimento</label>
                     <input type="date" id="dataDeNascimento">
                     <!--butão cadastrar-->
+                    
                     <button type="submit">CADASTRAR</button>
                     <button type="reset">Resetar</button>
+                    <a href="pages/login.html">já tem uma conta? faça o login!
+                    </a>
+                    
 
 
                 </form>
