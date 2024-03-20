@@ -1,0 +1,88 @@
+@font-face {
+    font-family:gameBoy ;
+    src: url(../fonts/gameboy_gamegirl/GAMEG___.TTF);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes mudaCor {
+    0%{
+        color: black;
+    }
+    50%{
+        color: red;
+        
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+
+:root{
+    --corPrimaria: rgb(123, 243, 123);
+    --corSecundaria: rgb(121, 118, 118);
+    --branco: rgb(255, 253, 253);
+    --preto: black;
+    --fontprimaria: gameBoy;
+    --fontSecundaria: 'trebuche'
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fontSecundaria);
+
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--corSecundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 70%;
+    height: 80%;
+    background-color: var(--branco);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+#efeito, #formulario{
+    width: 50%;
+    height: 100%;
+    
+}
+#efeito{
+    background-image: url(../images/gameBoy.jpg);
+    background-size: cover
+    
+    
+}
+
+#banner{
+        width:100%;
+        height: 100%;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,113,69,0.011904761904761862) 52%, rgb(255, 255, 255) 100%);
+        
+}
+h3{
+    animation-name: mudaCor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
