@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdutório Bootstrap</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <!--NAVBAR HEADER-->
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <!--ORGANIZAR ELEMENTOS-->
+            <div class="container-fluid">
+                <!--PAGINA PRINCIPAL-->
+              <img src="images/icons/scooter.svg" alt="scooter">
+              <a class="navbar-brand" href="#">HOME</a>
+              
+              
+              <!--BOTÃO MOBILE-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--OS LINKS DO SITE-->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">História</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catálogo</a>
+                  </li>
+                  
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+             </div>
+            </div>
+          </nav>
+    </header>
+
+    <main></main>
+    <h1>OLÁ MUNDO!</h1>
+
+    <!--container - div centralizada-->
+    <!--container-fluid - div centralizada 100%-->
+    <!--bg-color - backgroundcolor-->
+    <!--text-color - color-->
+    <!--m-valor(1 a 5) - margin(mt,mb,ms,me = lados; mx,my = eixos)-->
+    <!--p-valor(1 a 5) - padding-->
+
+    <div class="container-fluid p-1 m-1 bg-black text-white">
+        Teste Bootstrap
+    </div>
+
+    <!--CAROUSEL-->
+    <section id="CarouselSection">
+        <div id="carouselExampleCaptions" class="carousel slide">
+             <!--INDICADORES CAROUSEL-->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!--CONTEÚDO CAROUSEL-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/james.jpg" class="d-block w-100" alt="james">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Capivara </h5>
+                  <p>sir james.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/juca.jpg" class="d-block w-100" alt="juca">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Capivara </h5>
+                  <p>sir Juca.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/ralf.jpg" class="d-block w-100" alt="half">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Capivara</h5>
+                  <p>sir half.</p>
+                </div>
+              </div>
+            </div>
+             <!--PRÓXIMO E ANTERIOR-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+
+
+
+    <script src="scripts/bootstrap.min.js"></script>    
+</body>
+</html>
