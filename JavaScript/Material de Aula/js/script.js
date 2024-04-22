@@ -7,14 +7,14 @@ console.log("Olá mundo")
 //alert= manda uma mensagem
 //window.alert("FRONT É TOP!");
 
-//confirm= pergunta podendo sair verdadeiro ou falso
+//confirm = pergunta podendo sair verdadeiro ou falso
 //Window.confirm("Deseja baixar aequivo novamente?");
 
 var melancia = "uma variável de teste!";
 var ligado = true;
 var numero = 91;
 var objeto =[];
-// objeto = tió coletanea de dados, onde podemos inserir,remover  e pesquisar
+// objeto = coletanea de dados, onde podemos inserir,remover  e pesquisar
 
 //type of = verifica o tipo de variável
 
