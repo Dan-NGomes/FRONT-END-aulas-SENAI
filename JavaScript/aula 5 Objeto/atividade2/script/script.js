@@ -63,7 +63,7 @@ function acelerar(){
 
 //EXERCICO 2
 var usuarios = [];
-function exercicio2(){
+function exercico2(){
     let resposta2 = document.querySelector("#respostaEx2");
 
     resposta2.innerHTML = `
@@ -72,11 +72,14 @@ function exercicio2(){
     `
 }
 
-function cadsatrar(){
+function cadastrar(){
     let input = document.querySelector("#nome").value;
+    let resposta2 = document.querySelector("#respostaEx2");
 
     usuarios.push(input);
-    resposta2.innerHTML += usuarios;
+    resposta2.innerHTML += input;
+    console.log(usuarios);
+
 }
 
 
