@@ -1,4 +1,4 @@
-const jogos = ["counter strike 1.6", "free-fire", "GTA"];
+const jogos = ["counter strike 1.6", "free fire", "GTA"];
 
 
 function pesquisarJogo() {
