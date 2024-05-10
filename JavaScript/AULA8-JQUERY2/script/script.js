@@ -44,5 +44,5 @@ $("btnLogar").on("mousecenter", function(){
     
 //$("#teste").slideDown(800);
 //$("#teste").show(800);
-$("#teste")fadeIn(800);
+$("#teste").fadeIn(800);
 });
