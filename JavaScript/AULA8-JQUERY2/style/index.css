@@ -1,5 +1,12 @@
+body{
+    background-image: url(../image/imagemcafe6mobile.png);
+    background-size: cover;
+}
+
+
 #teste{
-    width: 200px;
-    height: 200px;
-    background-color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/imagemCafe5mobile.png);
+    background-size: cover;
 }

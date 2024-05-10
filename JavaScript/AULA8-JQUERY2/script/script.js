@@ -40,7 +40,7 @@ $("#teste").fadeOut(800);
 //$("#teste").slideUp(800);
 //$("#teste").hide(800);
 
-$("btnLogar").on("mousecenter", function(){
+$("#btnLogar").on("mouseenter", function(){
     
 //$("#teste").slideDown(800);
 //$("#teste").show(800);
