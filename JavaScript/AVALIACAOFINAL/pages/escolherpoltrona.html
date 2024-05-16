@@ -44,40 +44,45 @@
         
 
     </header>
-    
-      <h1 class="text-center">Escolha seu Filme</h1>
-  
+    <h1 class="text-center">Escolha sua poltrona</h1>
 
-      <main>
+    <main>
         <div id="filmesCompra">
-            <div id="banner"></div>
-            
-            <div id="catalogo">
-                <div class="produto">
-                    <img src="../image/filmecartaz/eliminadoresFilmeCartaz.png" alt="imagemProduto1">
-                    <p>R$ 20,00</p>
-                    <a href="escolherpoltrona.html" class="btn btnCatalogo">Adicionar ao carrinho</a>
-                </div>
-                <div class="produto">
-                    <img src="../image/filmecartaz/Intervencao-E-Proibido-Morrer 1 (1).png" alt="imagemProduto2">
-                    <p>R$ 20,00</p>
-                    <a href="escolherpoltrona.html" class="btn btnCatalogo">Adicionar ao carrinho</a>
-                </div>
-                <div class="produto">
-                    <img src="../image/filmecartaz/peligrosa.png" alt="imagemproduto3">
-                    <p>R$ 20,00</p>
-                    <a href="../pages/escolherpoltrona.html" class="btn btnCatalogo">Adicionar ao carrinho</a>
-                    
-                </div>
+            <div class="filme">
+                <img src="../image/filmecartaz/eliminadoresFilmeCartaz.png" alt="eliminadores">
+                <p>R$ 20,00</p>
+                <button type="button" class="ver-secao">Ver Poltrona</button>
+            </div>
+            <div class="filme">
+                <img src="../image/filmecartaz/Intervencao-E-Proibido-Morrer 1 (1).png" alt="intervencao">
+                <p>R$ 20,00</p>
+                <button type="button" class="ver-secao">Ver Poltrona</button>
+            </div>
+            <div class="filme">
+                <img src="../image/filmecartaz/peligrosa.png" alt="peligrosa">
+                <p>R$ 20,00</p>
+                <button type="button" class="ver-secao">Ver Poltrona</button>
             </div>
         </div>
     </main>
-  
+
+    <div id="poltronasModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Poltronas Disponíveis</h2>
+            <div class="poltronas">
+                <!-- Aqui serão exibidas as poltronas -->
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                <a href="pagamento.html" class="btn btnCatalogo">PAGAMENTO
+                </button></a>
+        </div>
+    </div>
     
-      <footer class="text-center">Todos os direitos são reservados ao @CineSenae</footer>
 
     
-       
+
+    <footer class="text-center">Todos os direitos são reservados ao @CineSenae</footer>
 
     <script src="../script/bootstrap.min.js"></script>
     <script src="../script/jquery-3.7.1.min.js"></script>
